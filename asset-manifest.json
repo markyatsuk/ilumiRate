@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ilumirate/static/css/main.f72cd116.css",
-    "main.js": "/ilumirate/static/js/main.ae4d6a55.js",
+    "main.css": "/ilumirate/static/css/main.c6741092.css",
+    "main.js": "/ilumirate/static/js/main.6d374f44.js",
     "static/media/heroMob.png": "/ilumirate/static/media/heroMob.b82e9d74ac12e5082a0e.png",
     "static/media/Directors.jpg": "/ilumirate/static/media/Directors.2c9df9cf4ba0242428b5.jpg",
     "static/media/Executives.jpg": "/ilumirate/static/media/Executives.6ead2da7d223af1c2a65.jpg",
@@ -18,24 +18,25 @@
     "static/media/appStore.svg": "/ilumirate/static/media/appStore.215d8f223b6a19dcdc23d6b093de3eae.svg",
     "static/media/googlePlay.svg": "/ilumirate/static/media/googlePlay.63832cb90855e74fa1107bcb1ae4013d.svg",
     "static/media/modeling.svg": "/ilumirate/static/media/modeling.a3a0f140a2b38421f64117c16d97369a.svg",
+    "static/media/logo64x64.svg": "/ilumirate/static/media/logo64x64.039cd89d24eba6c7f7d8f6bf1c878ec3.svg",
     "static/media/logo.svg": "/ilumirate/static/media/logo.3fd5c3f2f193ca020f413567c697bfc0.svg",
     "static/media/androidLogo.svg": "/ilumirate/static/media/androidLogo.e3e7c2a280b347cd796a064022433290.svg",
+    "index.html": "/ilumirate/index.html",
     "static/media/sportsEsports.svg": "/ilumirate/static/media/sportsEsports.ade3a9a838fe0ecde5dc162c98c117d2.svg",
     "static/media/sportsFootball.svg": "/ilumirate/static/media/sportsFootball.c55da06d346478ca86bb274f5467d209.svg",
     "static/media/appleLogo.svg": "/ilumirate/static/media/appleLogo.17ec6a16d610146c228861c3d7d4585c.svg",
     "static/media/twitter.svg": "/ilumirate/static/media/twitter.6e40f2fb47deed1bba012734b76338e5.svg",
-    "index.html": "/ilumirate/index.html",
     "static/media/youtube.svg": "/ilumirate/static/media/youtube.dea1b9a37662322f638c2456bbc939bd.svg",
     "static/media/instagram.svg": "/ilumirate/static/media/instagram.6278cae26e24dd0c96b8f32d02ff61b8.svg",
     "static/media/music.svg": "/ilumirate/static/media/music.f5bcdf951d1f9878bd9d847ffdc88eeb.svg",
     "static/media/play.svg": "/ilumirate/static/media/play.0c34adc7150e78b5d043c67b7d0471b1.svg",
     "static/media/facebook.svg": "/ilumirate/static/media/facebook.a31216778f30932afb767a62f04c8ecb.svg",
     "static/media/menu.svg": "/ilumirate/static/media/menu.03e5a3ec8b4673f528b748064cdd18d3.svg",
-    "main.f72cd116.css.map": "/ilumirate/static/css/main.f72cd116.css.map",
-    "main.ae4d6a55.js.map": "/ilumirate/static/js/main.ae4d6a55.js.map"
+    "main.c6741092.css.map": "/ilumirate/static/css/main.c6741092.css.map",
+    "main.6d374f44.js.map": "/ilumirate/static/js/main.6d374f44.js.map"
   },
   "entrypoints": [
-    "static/css/main.f72cd116.css",
-    "static/js/main.ae4d6a55.js"
+    "static/css/main.c6741092.css",
+    "static/js/main.6d374f44.js"
   ]
 }
