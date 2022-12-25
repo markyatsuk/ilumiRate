@@ -4,11 +4,13 @@ import { IconMenu } from "../Icons/Icons";
 export const Header = () => {
   return (
     <header>
-      <div>
-        <IconLogo />
-        <p>ilumiRate</p>
+      <div className={s.headerContainer}>
+        <div className={s.logoContainer}>
+          <IconLogo />
+          <p className={s.logoText}>ilumiRate</p>
+        </div>
+        <IconMenu />
       </div>
-      <IconMenu />
     </header>
   );
 };
