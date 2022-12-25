@@ -1,4 +1,5 @@
 import { ReactComponent as Logo } from "../../images/svg/logo.svg";
+import { ReactComponent as Logo64 } from "../../images/svg/logo64x64.svg";
 import { ReactComponent as Menu } from "../../images/svg/menu.svg";
 import { ReactComponent as Play } from "../../images/svg/play.svg";
 import { ReactComponent as AppStore } from "../../images/svg/appStore.svg";
@@ -15,6 +16,10 @@ import { ReactComponent as Youtube } from "../../images/svg/youtube.svg";
 import { ReactComponent as Instagram } from "../../images/svg/instagram.svg";
 export function IconLogo() {
   return <Logo />;
+}
+
+export function IconLogo64() {
+  return <Logo64 />;
 }
 
 export function IconMenu() {

@@ -1,0 +1,27 @@
+header {
+  padding: 16px 0;
+  background-color: #fff;
+}
+.headerContainer {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logoText {
+  color: #070000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 8px;
+}
+
+.logoSpan {
+  /* margin-top: 16px; */
+  margin-right: 8px;
+}
