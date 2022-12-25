@@ -1,6 +1,39 @@
 .hero {
-  background-image: url("../../images/heroMob.png");
+  background-image: linear-gradient(
+      90deg,
+      #070000 12.82%,
+      rgba(0, 0, 0, 0.268225) 55.31%,
+      rgba(0, 0, 0, 0) 94.41%
+    ),
+    url("../../images/heroMob.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+  padding-top: 312px;
+  padding-bottom: 92px;
+}
+
+.mainTitle {
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+  margin-left: 24px;
+}
+
+.play {
+  margin-left: 10px;
 }
