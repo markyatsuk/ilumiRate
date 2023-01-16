@@ -1,6 +1,11 @@
 .community {
   padding: 78px 0;
-  background-color: #000000e1;
+  /* background-color: #000000e1; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../images/comunity.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
 }
 
 .titleCommunity {
