@@ -14,64 +14,90 @@ import ExecutivesJPG from "../../images/Executives.jpg";
 
 export const WhoIs = () => {
   return (
-    <section className={s.WhoIs}>
-      <h2>
-        Who’s on <span>ilumiRate</span> ?
-      </h2>
-      <p>
-        Our users vary from a plethora of professions in the entertainment and
-        media industry.
-      </p>
-      <ul>
-        <li>
-          <img src={ActorsJPG} alt="" />
-          <p>Actors</p>
-        </li>
-        <li>
-          <img src={WritersJPG} alt="" />
-          <p>Writers</p>
-        </li>
-        <li>
-          <img src={DirectorsJPG} alt="" />
-          <p>Directors</p>
-        </li>
-        <li>
-          <img src={ProducersJPG} alt="" />
-          <p>Producers</p>
-        </li>
-        <li>
-          <img src={CinematographersJPG} alt="" />
-          <p>Cinematographers</p>
-        </li>
-        <li>
-          <img src={GripJPG} alt="" />
-          <p>Grip/Gaffers</p>
-        </li>
-        <li>
-          <img src={EditorsJPG} alt="" />
-          <p>Editors</p>
-        </li>
-        <li>
-          <img src={EntryLevelCrewJPG} alt="" />
-          <p>Entry Level Crew/Staff</p>
-        </li>
-        <li>
-          <img src={PhotographersJPG} alt="" />
-          <p>Photographers</p>
-        </li>
-        <li>
-          <img src={AgentsJPG} alt="" />
-          <p>Agents/Managers</p>
-        </li>
-        <li>
-          <img src={AttorneysJPG} alt="" />
-          <p>Attorneys</p>
-        </li>
-        <li>
-          <img src={ExecutivesJPG} alt="" />
-          <p>Executives</p>
-        </li>
-      </ul>
+    <section className={s.whoIs}>
+      <div className="container">
+        <h2 className={s.whoIsTitle + " title"}>
+          Who’s on <span className={s.titleSpan}>ilumiRate</span> ?
+        </h2>
+        <p className={s.paragraph}>
+          Our users vary from a plethora of professions in the entertainment and
+          media industry.
+        </p>
+        <ul className={s.list}>
+          <li className={s.item}>
+            <img src={ActorsJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Actors</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={WritersJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Writers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={DirectorsJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Directors</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={ProducersJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Producers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={CinematographersJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Cinematographers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={GripJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Grip/Gaffers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={EditorsJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Editors</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={EntryLevelCrewJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Entry Level Crew/Staff</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={PhotographersJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Photographers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={AgentsJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Agents/Managers</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={AttorneysJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Attorneys</p>
+            </div>
+          </li>
+          <li className={s.item}>
+            <img src={ExecutivesJPG} alt="" />
+            <div className={s.jobContainer}>
+              <p className={s.job}>Executives</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };

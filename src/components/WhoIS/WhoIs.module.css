@@ -1,0 +1,48 @@
+.whoIs {
+  padding: 64px 0;
+}
+
+.whoIsTitle {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.titleSpan {
+  color: #f7c100;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: calc((100% - 23px) / 2);
+  margin-bottom: 24px;
+}
+
+.item:nth-child(2n) {
+  margin-left: 23px;
+}
+
+.item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+.jobContainer {
+  padding-top: 12px;
+}
+
+.job {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}

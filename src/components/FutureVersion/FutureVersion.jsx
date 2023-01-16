@@ -1,67 +1,46 @@
 import s from "./FutureVersion.module.css";
-import { IconMusic } from "../Icons/Icons";
-import { IconModeling } from "../Icons/Icons";
-import { IconFootball } from "../Icons/Icons";
-import { IconEsports } from "../Icons/Icons";
+import { Versions } from "../Versions/Versions";
+import note from "../../images/svg/music.svg";
+import modeling from "../../images/svg/modeling.svg";
+import sport from "../../images/svg/sportsFootball.svg";
+import eSport from "../../images/svg/sportsEsports.svg";
 export const FutureVersion = () => {
   return (
     <section className={s.futureVersion}>
-      <h2>ilumiRate 2.0 Coming Soon</h2>
-      <p>Future versions will facilitate transparency for:</p>
-      <ul>
-        <li>
-          <IconMusic />
-          <p>Music</p>
-          <ul>
-            <li>Music artists </li>
-            <li>Producers</li>
-            <li>A&Rs</li>
-            <li>A&Rs</li>
-            <li>Song writers</li>
-            <li>Independent labels </li>
-          </ul>
-        </li>
-        <li>
-          <IconModeling />
-          <p>Modeling</p>
-          <ul>
-            <li>Agencies</li>
-            <li>Agents</li>
-            <li>Managers</li>
-            <li>Management Companies</li>
-            <li>Photographers</li>
-            <li>Brands</li>
-          </ul>
-        </li>
-        <li>
-          <IconFootball />
-          <p>Sports</p>
-          <ul>
-            <li>Major</li>
-            <li>Attorneys</li>
-            <li>Managers</li>
-            <li>Teams</li>
-            <li>Minor Professional Sports Leagues</li>
-            <li>Organizations</li>
-            <li>Owners</li>
-            <li>Agents</li>
-          </ul>
-        </li>
-        <li>
-          <IconEsports />
-          <p>E-Sports</p>
-          <ul>
-            <li>Major</li>
-            <li>Minor Professional Leagues</li>
-            <li>Attorneys</li>
-            <li>Managers</li>
-            <li>Agents</li>
-            <li>Brands</li>
-            <li>Sponsors</li>
-            <li>Endorsers</li>
-          </ul>
-        </li>
-      </ul>
+      <div className="container">
+        <h2 className={s.futureVersionTitle}>
+          ilumiRate 2.0 <br /> Coming Soon
+        </h2>
+        <p className={s.paragraph}>
+          Future versions will facilitate transparency for:
+        </p>
+        <div className="listContainer">
+          <Versions
+            image={note}
+            title="Music"
+            categories="Music artist,Producers,A&Rs,A&Rs,Song writers,Independent labels"
+            index={1}
+          />
+          <Versions
+            image={modeling}
+            title="Modeling"
+            categories="Agencies,Agents,Managers,Management Companies,Photographers,Brands"
+            index={2}
+          />
+          <Versions
+            image={sport}
+            title="Sports"
+            categories="Major,Attorneys,Managers,Teams,Minor Professional Sports Leagues,Organizations,Owners,Agents"
+            index={3}
+          />
+          <Versions
+            image={eSport}
+            title="E-Sports"
+            categories="Major, Minor Professional Leagues,Attorneys,Managers,Agents,Brands,Sponsors,Endorsers"
+            index={4}
+          />
+        </div>
+      </div>
     </section>
   );
 };
