@@ -1,7 +1,4 @@
 import s from "./Summary.module.css";
-import { IconLogo } from "../Icons/Icons";
-import { IconAppleLogo } from "../Icons/Icons";
-import { IconAndroidLogo } from "../Icons/Icons";
 import { IconFacebook } from "../Icons/Icons";
 import { IconTwitter } from "../Icons/Icons";
 import { IconYoutube } from "../Icons/Icons";

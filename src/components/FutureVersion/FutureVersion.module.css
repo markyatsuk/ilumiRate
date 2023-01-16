@@ -1,6 +1,16 @@
 .futureVersion {
   padding: 72px 0;
   background-color: #1d1d1de5;
+  background: linear-gradient(
+      0deg,
+      rgba(29, 29, 29, 0.9),
+      rgba(29, 29, 29, 0.9)
+    ),
+    url("../../images/ilumirate2.0bg.png");
+  background-blend-mode: normal, multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
 
 .futureVersionTitle {
