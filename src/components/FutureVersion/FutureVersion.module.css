@@ -30,7 +30,7 @@
 }
 
 .list {
-  list-style-type: none;
+  display: grid;
 }
 
 .listTitle {

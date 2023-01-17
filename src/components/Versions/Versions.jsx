@@ -7,7 +7,7 @@ export const Versions = ({ image, title, categories, index }) => {
     <div className={s.listContainer}>
       {index === 1 && (
         <>
-          <img src={image} alt="icon" />
+          <img src={image} alt="icon" className={s.icon} />
           <h2 className={s.title}>{title}</h2>
           <ul className={s.list}>
             {categoriesArray ? (
@@ -24,7 +24,7 @@ export const Versions = ({ image, title, categories, index }) => {
       )}
       {index === 2 && (
         <>
-          <img src={image} alt="icon" />
+          <img src={image} alt="icon" className={s.icon} />
           <h2 className={s.title}>{title}</h2>
           <ul className={s.list}>
             {categoriesArray ? (
@@ -41,7 +41,7 @@ export const Versions = ({ image, title, categories, index }) => {
       )}
       {index === 3 && (
         <>
-          <img src={image} alt="icon" />
+          <img src={image} alt="icon" className={s.icon} />
           <h2 className={s.title}>{title}</h2>
           <ul className={s.list}>
             {categoriesArray ? (
@@ -58,7 +58,7 @@ export const Versions = ({ image, title, categories, index }) => {
       )}
       {index === 4 && (
         <>
-          <img src={image} alt="icon" />
+          <img src={image} alt="icon" className={s.icon} />
           <h2 className={s.title}>{title}</h2>
           <ul className={s.list}>
             {categoriesArray ? (
