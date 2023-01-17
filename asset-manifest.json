@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ilumirate/static/css/main.8ac8c349.css",
-    "main.js": "/ilumirate/static/js/main.57322e82.js",
+    "main.css": "/ilumirate/static/css/main.6e85afb3.css",
+    "main.js": "/ilumirate/static/js/main.3c60fefc.js",
     "static/media/ilumirate2.0bg.png": "/ilumirate/static/media/ilumirate2.0bg.6aaca3ead7975888926e.png",
     "static/media/transparency.png": "/ilumirate/static/media/transparency.2da635e6a333db22e0f2.png",
     "static/media/comunity.png": "/ilumirate/static/media/comunity.34b9104b9c807e6fba49.png",
@@ -36,11 +36,11 @@
     "static/media/play.svg": "/ilumirate/static/media/play.0c34adc7150e78b5d043c67b7d0471b1.svg",
     "static/media/facebook.svg": "/ilumirate/static/media/facebook.a31216778f30932afb767a62f04c8ecb.svg",
     "static/media/menu.svg": "/ilumirate/static/media/menu.03e5a3ec8b4673f528b748064cdd18d3.svg",
-    "main.8ac8c349.css.map": "/ilumirate/static/css/main.8ac8c349.css.map",
-    "main.57322e82.js.map": "/ilumirate/static/js/main.57322e82.js.map"
+    "main.6e85afb3.css.map": "/ilumirate/static/css/main.6e85afb3.css.map",
+    "main.3c60fefc.js.map": "/ilumirate/static/js/main.3c60fefc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ac8c349.css",
-    "static/js/main.57322e82.js"
+    "static/css/main.6e85afb3.css",
+    "static/js/main.3c60fefc.js"
   ]
 }
