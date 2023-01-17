@@ -13,6 +13,7 @@ code {
 
 img {
   display: block;
+  width: 100%;
 }
 
 p,
@@ -32,7 +33,7 @@ a {
 }
 
 .container {
-  max-width: 100%;
+  /* max-width: 100%; */
   margin: 0 auto;
   padding: 0 24px;
   /* @media screen and (min-width: 480px) {

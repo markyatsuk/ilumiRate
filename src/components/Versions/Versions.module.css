@@ -7,10 +7,16 @@
   margin-bottom: 8px;
 }
 
+.icon {
+  width: 56px;
+  height: 56px;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  max-width: calc(375px - 48px);
 }
 
 .listContainer + .listContainer {
