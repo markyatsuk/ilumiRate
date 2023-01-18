@@ -10,3 +10,9 @@ footer {
   text-align: center;
   color: #363331;
 }
+
+@media screen and (min-width: 1440px) {
+  footer {
+    padding-bottom: 16px;
+  }
+}

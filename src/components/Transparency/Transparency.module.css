@@ -36,3 +36,35 @@
 .item + .item {
   margin-top: 16px;
 }
+
+@media screen and (min-width: 1440px) {
+  .desktopContainer {
+    padding: 104px 80px 104px 104px;
+    width: calc(50% - 104px - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .transparency {
+    padding: 0 0;
+    background: #000000;
+    display: flex;
+  }
+  .titleTransparency {
+    text-align: start;
+    color: #ffffff;
+    margin-bottom: 24px;
+    margin-left: 0;
+  }
+  .btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .item {
+    font-size: 18px;
+  }
+}

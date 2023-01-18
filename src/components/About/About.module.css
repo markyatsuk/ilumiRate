@@ -1,6 +1,6 @@
 .titleAbout {
   text-align: center;
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .titleYelow {
@@ -11,10 +11,22 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  margin-top: 24px;
 }
 
 .logoContainer {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .logoContainer {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 40px;
+  }
+  .textAbout {
+    font-size: 18px;
+  }
 }
