@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/ilumirate/static/css/main.6e85afb3.css",
-    "main.js": "/ilumirate/static/js/main.3c60fefc.js",
+    "main.css": "/ilumirate/static/css/main.4f6135bb.css",
+    "main.js": "/ilumirate/static/js/main.f7cc3dc8.js",
     "static/media/ilumirate2.0bg.png": "/ilumirate/static/media/ilumirate2.0bg.6aaca3ead7975888926e.png",
+    "static/media/heroDesktop.png": "/ilumirate/static/media/heroDesktop.1c5dd55ddea671a4a5ea.png",
     "static/media/transparency.png": "/ilumirate/static/media/transparency.2da635e6a333db22e0f2.png",
     "static/media/comunity.png": "/ilumirate/static/media/comunity.34b9104b9c807e6fba49.png",
     "static/media/heroMob.png": "/ilumirate/static/media/heroMob.b82e9d74ac12e5082a0e.png",
+    "static/media/ExecutivesDesktop.jpg": "/ilumirate/static/media/ExecutivesDesktop.e9f146bf5288f2a0ac5a.jpg",
+    "static/media/AttorneysDesktop.jpg": "/ilumirate/static/media/AttorneysDesktop.8b86c2b5acef7fe424db.jpg",
+    "static/media/ilumirate2.0bgDesktop.webp": "/ilumirate/static/media/ilumirate2.0bgDesktop.13893e30cdb6759673f7.webp",
     "static/media/Directors.jpg": "/ilumirate/static/media/Directors.2c9df9cf4ba0242428b5.jpg",
     "static/media/Executives.jpg": "/ilumirate/static/media/Executives.6ead2da7d223af1c2a65.jpg",
     "static/media/Editors.jpg": "/ilumirate/static/media/Editors.4efc47d7f1defc8518d0.jpg",
@@ -18,6 +22,8 @@
     "static/media/Writers.jpg": "/ilumirate/static/media/Writers.8c1dacf59fb4f89587e3.jpg",
     "static/media/EntryLevelCrew.jpg": "/ilumirate/static/media/EntryLevelCrew.ed0a675fd76297c4fbaf.jpg",
     "static/media/Cinematographers.jpg": "/ilumirate/static/media/Cinematographers.7e5edd9e40e471dd9ea3.jpg",
+    "static/media/ProducersDesktop.jpg": "/ilumirate/static/media/ProducersDesktop.0517f495978d91a7d226.jpg",
+    "static/media/DirectorsDesktop.jpg": "/ilumirate/static/media/DirectorsDesktop.c15080216ccb5500ea68.jpg",
     "static/media/appStore.svg": "/ilumirate/static/media/appStore.215d8f223b6a19dcdc23d6b093de3eae.svg",
     "static/media/googlePlay.svg": "/ilumirate/static/media/googlePlay.63832cb90855e74fa1107bcb1ae4013d.svg",
     "static/media/logo80x80.svg": "/ilumirate/static/media/logo80x80.34f90cfe31bdf9bfe719e08988797ef3.svg",
@@ -36,11 +42,11 @@
     "static/media/play.svg": "/ilumirate/static/media/play.0c34adc7150e78b5d043c67b7d0471b1.svg",
     "static/media/facebook.svg": "/ilumirate/static/media/facebook.a31216778f30932afb767a62f04c8ecb.svg",
     "static/media/menu.svg": "/ilumirate/static/media/menu.03e5a3ec8b4673f528b748064cdd18d3.svg",
-    "main.6e85afb3.css.map": "/ilumirate/static/css/main.6e85afb3.css.map",
-    "main.3c60fefc.js.map": "/ilumirate/static/js/main.3c60fefc.js.map"
+    "main.4f6135bb.css.map": "/ilumirate/static/css/main.4f6135bb.css.map",
+    "main.f7cc3dc8.js.map": "/ilumirate/static/js/main.f7cc3dc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e85afb3.css",
-    "static/js/main.3c60fefc.js"
+    "static/css/main.4f6135bb.css",
+    "static/js/main.f7cc3dc8.js"
   ]
 }
