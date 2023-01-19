@@ -87,4 +87,7 @@
     width: 195px;
     height: 56px;
   }
+  .imgContainer {
+    width: 50%;
+  }
 }
