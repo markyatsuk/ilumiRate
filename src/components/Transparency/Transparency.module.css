@@ -67,4 +67,7 @@
   .item {
     font-size: 18px;
   }
+  .imgContainer {
+    width: 50%;
+  }
 }

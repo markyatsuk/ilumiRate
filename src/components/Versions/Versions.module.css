@@ -58,11 +58,11 @@
   margin-right: 6px;
 }
 
-.item3:nth-child(5) {
+.item3:nth-child(6) {
   margin-right: 0px;
 }
 
-.item3:not(:nth-last-child(-n + 3)) {
+.item3:not(:nth-last-child(-n + 2)) {
   margin-bottom: 8px;
 }
 

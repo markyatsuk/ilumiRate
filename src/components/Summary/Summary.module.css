@@ -55,6 +55,19 @@
   margin-bottom: 24px;
 }
 
+.summaryLink {
+  text-decoration: none;
+  color: #363331;
+}
+
+.summaryLink:hover {
+  color: #5d8099;
+}
+
+.socialMedia {
+  list-style-type: none;
+}
+
 .downloadText {
   font-size: 16px;
   line-height: 24px;

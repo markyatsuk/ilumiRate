@@ -21,41 +21,121 @@ export const Summary = () => {
             <li className={s.listMainItem}>
               <h3 className={s.listTitle}>ilumiRate</h3>
               <ul className={s.list}>
-                <li className={s.listItem}>About / Press</li>
-                <li className={s.listItem}>Awards</li>
-                <li className={s.listItem}>Blog</li>
-                <li className={s.listItem}>Research</li>
-                <li className={s.listItem}>Guides</li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    About / Press
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Awards
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Blog
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Research
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Guides
+                  </a>
+                </li>
               </ul>
             </li>
             <li className={s.listMainItem}>
               <h3 className={s.listTitle}>Employers</h3>
               <ul className={s.list}>
-                <li className={s.listItem}>Get a Free Employer</li>
-                <li className={s.listItem}>Accounts</li>
-                <li className={s.listItem}>Employer Center</li>
-                <li className={s.listItem}>Post a Job</li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Get a Free Employer
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Accounts
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Employer Center
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Post a Job
+                  </a>
+                </li>
               </ul>
             </li>
             <li className={s.listMainItem}>
               <h3 className={s.listTitle}>Community</h3>
               <ul className={s.list}>
-                <li className={s.listItem}>Help / Contact Us</li>
-                <li className={s.listItem}>Guidelines</li>
-                <li className={s.listItem}>Terms of Use</li>
-                <li className={s.listItem}>Privacy & Cookies</li>
-                <li className={s.listItem}>Privacy Center</li>
-                <li className={s.listItem}>Do Not Sell My</li>
-                <li className={s.listItem}>Personal Information</li>
-                <li className={s.listItem}>Cookie Consent Tool</li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Help / Contact Us
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Guidelines
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Terms of Use
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Privacy & Cookies
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Privacy Center
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Do Not Sell My
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Personal Information
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Cookie Consent Tool
+                  </a>
+                </li>
               </ul>
             </li>
             <li className={s.listMainItem}>
               <h3 className={s.listTitle}>Work With Us</h3>
               <ul className={s.list}>
-                <li className={s.listItem}>Advertisers</li>
-                <li className={s.listItem}>Developers</li>
-                <li className={s.listItem}>Careers</li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Advertisers
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Developers
+                  </a>
+                </li>
+                <li className={s.listItem}>
+                  <a href="!" className={s.summaryLink}>
+                    Careers
+                  </a>
+                </li>
               </ul>
             </li>
           </ul>
