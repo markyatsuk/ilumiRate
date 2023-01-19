@@ -78,7 +78,7 @@
 }
 
 .androidLogo {
-  margin-left: 12px;
+  margin-left: 8px;
   width: 24px;
   height: 24px;
 }
@@ -119,4 +119,59 @@
   appearance: none;
   background: url("../../images/arrowSelect.png") no-repeat right center;
   background-position: 95%;
+}
+
+@media screen and (min-width: 1440px) {
+  .logoTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .listMain {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+  }
+
+  .listMainItem {
+    flex-basis: calc((100% - 95px * 3) / 4);
+  }
+
+  .listMainItem + .listMainItem {
+    margin-left: 95px;
+  }
+
+  .logoContainer {
+    margin-right: 101px;
+  }
+  .contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 32px;
+  }
+  .listMainItem:nth-child(odd) {
+    margin-right: 0;
+  }
+  .listMainItem:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 0;
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  .downloadText {
+    margin-bottom: 0;
+  }
+  .socialList {
+    margin-bottom: 0;
+  }
+  .selectCountry {
+    min-width: 284px;
+  }
 }

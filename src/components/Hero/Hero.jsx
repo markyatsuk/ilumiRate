@@ -6,13 +6,17 @@ export const Hero = () => {
   return (
     <section className={s.hero}>
       <div className="container">
-        <h1 className={s.mainTitle + " title"}>
-          Create the transparency you want to see
-        </h1>
-        <Button>Try Now for Free</Button>
-        <a href="https://www.google.pl/" className={s.link}>
-          Watch demo <img src={play} alt="play" className={s.play} />
-        </a>
+        <div className={s.heroContainer}>
+          <h1 className={s.mainTitle + " title"}>
+            Create the transparency you want to see
+          </h1>
+          <div className={s.afterTitleCont}>
+            <Button>Try Now for Free</Button>
+            <a href="https://www.google.pl/" className={s.link}>
+              Watch demo <img src={play} alt="play" className={s.play} />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

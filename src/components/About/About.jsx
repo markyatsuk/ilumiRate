@@ -1,12 +1,12 @@
 import s from "./About.module.css";
 import { IconLogo64 } from "../Icons/Icons";
-
+import logo from "../../images/svg/logo.svg";
 export const About = () => {
   return (
     <section className="section">
       <div className="container">
         <div className={s.logoContainer}>
-          <IconLogo64 />
+          <img src={logo} alt="logo" className={s.logo} />
         </div>
         <h2 className={s.titleAbout + " title"}>
           Anonymously <span className={s.titleYelow}>review</span> and{" "}

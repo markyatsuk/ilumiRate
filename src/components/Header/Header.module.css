@@ -11,6 +11,8 @@ header {
 
 .logoContainer {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logoText {
@@ -24,4 +26,43 @@ header {
 .logoSpan {
   /* margin-top: 16px; */
   margin-right: 8px;
+}
+
+.autorize {
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #070000;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.signUp {
+  background-color: #f7c100;
+  margin-left: 24px;
+  border: 2px solid #f7c100;
+}
+
+.btnContainer {
+  display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+  .headerContainer {
+    padding: 0 104px;
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+  .logoText {
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

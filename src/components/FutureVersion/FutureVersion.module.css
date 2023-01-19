@@ -40,3 +40,30 @@
   color: #ffffff;
   margin-top: 16px;
 }
+
+@media screen and (min-width: 1440px) {
+  .futureVersion {
+    padding: 104px 0 88px 0;
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 29, 0.9),
+        rgba(29, 29, 29, 0.9)
+      ),
+      url("../../images/ilumirate2.0bgDesktop.webp");
+    /* background-blend-mode: normal, multiply; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .futureVersionTitle {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 24px;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 48px;
+  }
+  .listContainer {
+    display: flex;
+  }
+}
