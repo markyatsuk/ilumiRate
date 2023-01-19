@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ilumirate/static/css/main.4f6135bb.css",
-    "main.js": "/ilumirate/static/js/main.f7cc3dc8.js",
+    "main.css": "/ilumirate/static/css/main.9da94339.css",
+    "main.js": "/ilumirate/static/js/main.82f8effb.js",
     "static/media/ilumirate2.0bg.png": "/ilumirate/static/media/ilumirate2.0bg.6aaca3ead7975888926e.png",
     "static/media/heroDesktop.png": "/ilumirate/static/media/heroDesktop.1c5dd55ddea671a4a5ea.png",
     "static/media/transparency.png": "/ilumirate/static/media/transparency.2da635e6a333db22e0f2.png",
@@ -42,11 +42,11 @@
     "static/media/play.svg": "/ilumirate/static/media/play.0c34adc7150e78b5d043c67b7d0471b1.svg",
     "static/media/facebook.svg": "/ilumirate/static/media/facebook.a31216778f30932afb767a62f04c8ecb.svg",
     "static/media/menu.svg": "/ilumirate/static/media/menu.03e5a3ec8b4673f528b748064cdd18d3.svg",
-    "main.4f6135bb.css.map": "/ilumirate/static/css/main.4f6135bb.css.map",
-    "main.f7cc3dc8.js.map": "/ilumirate/static/js/main.f7cc3dc8.js.map"
+    "main.9da94339.css.map": "/ilumirate/static/css/main.9da94339.css.map",
+    "main.82f8effb.js.map": "/ilumirate/static/js/main.82f8effb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f6135bb.css",
-    "static/js/main.f7cc3dc8.js"
+    "static/css/main.9da94339.css",
+    "static/js/main.82f8effb.js"
   ]
 }
